@@ -1,0 +1,51 @@
+@font-face{
+  font-family: 'Raleway';
+  src: url('https://fonts.google.com/specimen/Raleway');
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Raleway';
+  background-image: url('../assets/images/bg-mobile.png');
+  display: grid;
+  grid-template-rows: minmax(620px, 1fr) 30px;
+}
+:root{
+  --main-primary-color: linear-gradient(hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
+  --main-pale-blue: hsl(243, 100%, 93%);
+  --main-grayish-blue: hsl(229, 7%, 55%);
+  --main-dark-blue: hsl(228, 56%, 26%);
+  --main-very-dark-blue: hsl(229, 57%, 11%);
+}
+
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#component{
+  width: 90%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: minmax(150px, 1fr) minmax(150px, 1fr);
+  
+}
+article#files{
+  border: 2px solid white;
+  display: grid;
+  grid-template-rows: repeat(1fr, 2);
+}
+article#storage{
+  border: 2px solid red;
+}
+
+
+
+
+
+
+/*footer*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
