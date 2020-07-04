@@ -10,7 +10,7 @@
 <body>
   <div class="main">
     <section id="component">
-      <article id="files">
+      <article id="files" class="container">
         <div class="files-header">
           <img src="./assets/images/logo.svg" alt="logo">
         </div>
@@ -27,24 +27,29 @@
         </div>
       </article>
   
-      <article id="storage">
-        <div class="storage-header">
-          You’ve used <span>815 GB</span> of your storage
-        </div>
-        <div class="storage-body">
-          <div class="storage">
-            <span></span>
+      <article id="storage" class="container">
+        <div class="row">
+          <div class="storage-header">
+            You’ve used <span>815 GB</span> of your storage
           </div>
-          <div class="storage-labels">
-            <span id="init-storage"> 0 GB </span> 
-            <span id="end-storage"> 1000 GB </span>
-          </div> 
-        </div>
-        <div class="storage-free">
-          <span> 185 </span> GB Left
+          <div class="storage-body">
+            <div class="storage">
+              <span></span>
+            </div>
+            <div class="storage-labels">
+              <span id="init-storage"> 0 GB </span> 
+              <span id="end-storage"> 1000 GB </span>
+            </div> 
+          </div>
+          <div class="storage-free">
+            <span> 185 </span> GB Left
+          </div>
         </div>
       </article>
     </section>
+  </div>
+  <div class="bg-desktop">
+    <img src="./assets/images/bg-desktop.png" alt="bg">
   </div>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
